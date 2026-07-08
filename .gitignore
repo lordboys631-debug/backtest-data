@@ -1,25 +1,24 @@
-# Build files
-.gradle/
-build/
-/*/build/
-
-# IDE Configuration
-.idea/
 *.iml
-*.iws
-*.ipr
-out/
-
-# Local files and secrets
-local.properties
+.gradle
+/local.properties
+/.idea/
+/.kotlin/
+/.windsurf/
+/.chatcode/
+/.qodo/
 .DS_Store
-
-# Captures and logs
-captures/
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
 *.log
-
-# System or build specific
-.externalNativeBuild/
-.cxx/
-.kotlin/
-.windsurf/
+*.py
+*.bat
+*.sh
+# *.md
+*.txt
+*.png
+*.backup
+*~
